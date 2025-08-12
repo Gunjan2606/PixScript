@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 import {motion} from 'framer-motion'
 import { AppContext } from '../context/AppContext1'
 
-const Result=()=>{
+const Result=()=>{ 
   const[image,setImage]=useState(assets.sample_img_1)
   const[isImageLoaded,setIsImageLoaded]=useState(false)
   const[loading,setLoading]=useState(false)
