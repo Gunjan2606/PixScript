@@ -29,7 +29,7 @@ const AppContextProvider=(props)=>{
 
     const [credit,setCredit]=useState(false)
 
-    const backendUrl=import.meta.env.VITE_BACKEND_URL
+    const backendUrl='https://pixscript-server.onrender.com'
     const navigate=useNavigate()
 
     const generateImage=async(prompt)=>{
